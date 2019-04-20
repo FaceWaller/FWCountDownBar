@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CountDownBar.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CountDownBar * bar = [[CountDownBar alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    bar.time = 5.f;
+    [self.view addSubview:bar];
+    [bar startAnimation];
+    
+    bar.touchBlock = ^(){
+        NSLog(@"点击了按钮");
+    };
 }
 
 

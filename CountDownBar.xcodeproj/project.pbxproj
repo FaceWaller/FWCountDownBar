@@ -15,6 +15,7 @@
 		8C0C450E226B07FA000E0F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C450D226B07FA000E0F2C /* main.m */; };
 		8C0C4518226B07FA000E0F2C /* CountDownBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C4517226B07FA000E0F2C /* CountDownBarTests.m */; };
 		8C0C4523226B07FA000E0F2C /* CountDownBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C4522226B07FA000E0F2C /* CountDownBarUITests.m */; };
+		8C0C4532226B092F000E0F2C /* CountDownBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C4531226B092F000E0F2C /* CountDownBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8C0C451E226B07FA000E0F2C /* CountDownBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0C4522226B07FA000E0F2C /* CountDownBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownBarUITests.m; sourceTree = "<group>"; };
 		8C0C4524226B07FA000E0F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0C4530226B092F000E0F2C /* CountDownBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownBar.h; sourceTree = "<group>"; };
+		8C0C4531226B092F000E0F2C /* CountDownBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8C0C44FF226B07F9000E0F2C /* AppDelegate.m */,
 				8C0C4501226B07F9000E0F2C /* ViewController.h */,
 				8C0C4502226B07F9000E0F2C /* ViewController.m */,
+				8C0C4530226B092F000E0F2C /* CountDownBar.h */,
+				8C0C4531226B092F000E0F2C /* CountDownBar.m */,
 				8C0C4504226B07F9000E0F2C /* Main.storyboard */,
 				8C0C4507226B07FA000E0F2C /* Assets.xcassets */,
 				8C0C4509226B07FA000E0F2C /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				8C0C4503226B07F9000E0F2C /* ViewController.m in Sources */,
 				8C0C450E226B07FA000E0F2C /* main.m in Sources */,
 				8C0C4500226B07F9000E0F2C /* AppDelegate.m in Sources */,
+				8C0C4532226B092F000E0F2C /* CountDownBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
